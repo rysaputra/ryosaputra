@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  nav {
+    @apply bg-gray-900 text-gray-200;
+  }
+  
+  ul {
+    @apply list-none;
+  }
+  
+  a {
+    @apply text-gray-200 hover:text-blue-500;
+  }
+  
+  button {
+    @apply p-2;
+  }
+}
